@@ -12,3 +12,5 @@ Suggested combinations of input and outputs are:
 + 8 crafted buttons and a buzzer
 + 1 potentiometer, 2 buttons and two buzzers
 + Multiple buttons and a matching number of buzzers to play chords (multiple notes at the same time)
+
+You **can** use more components than **8** but this will involve sharing a **GND** pin.
