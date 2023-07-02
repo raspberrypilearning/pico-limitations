@@ -1,16 +1,16 @@
-The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components unless some share a **GND** pin.
+Το Raspberry Pi Pico έχει οκτώ ακίδες **GND**, επομένως, όταν χρησιμοποιείς καλώδια jumper, μπορείς να έχεις μόνο οκτώ εξαρτήματα, εκτός εάν μερικά μοιράζονται **ακίδες GND**.
 
-![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/gnd-pins.png){:width="400px"}
+![Απεικόνιση του Raspberry Pi Pico με τονισμένες τις ακίδες γείωσης.](images/gnd-pins.png){:width="400px"}
 
-Speakers can only play one note at a time so you will need multiple speakers if you want to play multiple sounds at the same time.
+Τα ηχεία μπορούν να αναπαράγουν μόνο μία νότα τη φορά, επομένως θα χρειαστείς πολλά ηχεία εάν θέλεις να αναπαράγεις πολλούς ήχους ταυτόχρονα.
 
-There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply.
+Υπάρχει μόνο ένα **3V** pin, οπότε μπορείς να χρησιμοποιήσεις μόνο ένα ποτενσιόμετρο. Υπάρχει επίσης ένα όριο στο πόσο ρεύμα μπορεί να παρέχει το Raspberry Pi Pico.
 
-Suggested combinations of input and outputs are:
-+ 1 potentiometer and 1 buzzer
-+ 4 buttons and buzzer
-+ 8 crafted buttons and a buzzer
-+ 1 potentiometer, 2 buttons and two buzzers
-+ Multiple buttons and a matching number of buzzers to play chords (multiple notes at the same time)
+Οι προτεινόμενοι συνδυασμοί εισόδου και εξόδου είναι:
++ 1 ποτενσιόμετρο και 1 buzzer
++ 4 κουμπιά και 1 buzzer
++ 8 χειροποίητα κουμπιά και ένα buzzer
++ 1 ποτενσιόμετρο, 2 κουμπιά και δύο buzzer
++ Πολλαπλά κουμπιά και αντίστοιχος αριθμός buzzer για αναπαραγωγή συγχορδιών (πολλές νότες ταυτόχρονα)
 
-You **can** use more components than **8** but this will involve sharing a **GND** pin.
+**Μπορείς** να χρησιμοποιήσεις περισσότερα από **8** στοιχεία, αλλά αυτό σημαίνει ότι κάποια θα χρησιμοποιούν μια ακίδα **GND** από κοινού.
