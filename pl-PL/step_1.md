@@ -1,16 +1,16 @@
-The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components unless some share a **GND** pin.
+Raspberry Pi Pico ma osiem pinów **GND**, więc kiedy używasz przewodów połączeniowych, możesz podłączyć tylko osiem elementów, chyba że niektóre mają wspólny pin **GND**.
 
-![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/gnd-pins.png){:width="400px"}
+![Ilustracja Raspberry Pi Pico z zaznaczonymi pinami uziemienia.](images/gnd-pins.png){:width="400px"}
 
-Speakers can only play one note at a time so you will need multiple speakers if you want to play multiple sounds at the same time.
+Głośniki mogą odtwarzać tylko jedną nutę naraz, więc będziesz potrzebować wielu głośników, jeśli chcesz odtwarzać wiele dźwięków jednocześnie.
 
-There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply.
+Jest tylko jeden pin **3V**, więc możesz użyć tylko jednego potencjometru. Istnieje również ograniczenie prądu, jakie może dostarczyć Raspberry Pi Pico.
 
-Suggested combinations of input and outputs are:
-+ 1 potentiometer and 1 buzzer
-+ 4 buttons and buzzer
-+ 8 crafted buttons and a buzzer
-+ 1 potentiometer, 2 buttons and two buzzers
-+ Multiple buttons and a matching number of buzzers to play chords (multiple notes at the same time)
+Sugerowane kombinacje wejść i wyjść to:
++ 1 potencjometr i 1 brzęczyk
++ 4 przyciski i brzęczyk
++ 8 niestandardowych przycisków i brzęczyk
++ 1 potencjometr, 2 przyciski i dwa brzęczyki
++ Wiele przycisków i odpowiednia liczba brzęczyków do odtwarzania akordów (wiele nut w tym samym czasie)
 
-You **can** use more components than **8** but this will involve sharing a **GND** pin.
+**Możesz** użyć więcej komponentów niż **8**, ale będzie to wymagało współdzielenia pinu **GND**.
