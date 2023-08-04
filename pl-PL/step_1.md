@@ -10,7 +10,7 @@ Sugerowane kombinacje wejść i wyjść to:
 + 1 potencjometr i 1 brzęczyk
 + 4 przyciski i brzęczyk
 + 8 niestandardowych przycisków i brzęczyk
-+ 1 potencjometr, 2 przyciski i dwa brzęczyki
++ 1 potencjometr, 2 przyciski i 2 brzęczyki
 + Wiele przycisków i odpowiednia liczba brzęczyków do odtwarzania akordów (wiele nut w tym samym czasie)
 
 **Możesz** użyć więcej komponentów niż **8**, ale będzie to wymagało współdzielenia pinu **GND**.
