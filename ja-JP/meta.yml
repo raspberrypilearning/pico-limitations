@@ -1,10 +1,10 @@
-title: Component limitations of the Raspberry Pi Pico
+title: Raspberry Pi Picoのコンポーネント制限事項
 hero_image: images/banner.png
-description: How many components can be attached with jumper wires to a Raspberry Pi Pico
+description: Raspberry Pi Picoにジャンパーワイヤーで接続できるコンポーネントの数
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-02-22"
 steps:
   - 
-    title: Component limitations of the Raspberry Pi Pico
+    title: Raspberry Pi Picoのコンポーネント制限事項
