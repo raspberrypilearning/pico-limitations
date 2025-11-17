@@ -1,16 +1,16 @@
-The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components unless some share a **GND** pin.
+يحتوي Raspberry Pi Pico على ثماني دبابيس **GND** لذا عند استخدام أسلاك التوصيل، يمكنك الحصول على ثماني مكونات فقط ما لم يشارك البعض في دبوس **GND**.
 
-![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/gnd-pins.png){:width="400px"}
+![رسم توضيحي لـ Raspberry Pi Pico مع إبراز المسامير الأرضية.](images/gnd-pins.png){:width="400px"}
 
-Speakers can only play one note at a time so you will need multiple speakers if you want to play multiple sounds at the same time.
+يمكن لمكبرات الصوت تشغيل نَغْمَة واحدة فقط في كل مرة، لذا ستحتاج إلى مكبرات صوت متعددة إذا كنت تريد تشغيل أصوات متعددة في نفس الوقت.
 
-There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply.
+لا يوجد سوى دبوس **3V** واحد فقط لذا يمكنك استخدام مقياس جهد واحد فقط. هناك أيضًا حد لمقدار التيار الذي يمكن أن يوفره Raspberry Pi Pico.
 
-Suggested combinations of input and outputs are:
-+ 1 potentiometer and 1 buzzer
-+ 4 buttons and buzzer
-+ 8 crafted buttons and a buzzer
-+ 1 potentiometer, 2 buttons and two buzzers
-+ Multiple buttons and a matching number of buzzers to play chords (multiple notes at the same time)
+المجموعات المقترحة من المدخلات والمخرجات هي:
++ مقياس جهد واحد و جرس واحد
++ 4 أزرار و جرس
++ 8 أزرار مصنوعة و جرس
++ 1 مقياس جهد، و 2 زر، و اثنين من صفارات الإنذار
++ أزرار متعددة وعدد مطابق من الطنانات لعزف الحبال (نوتات متعددة في نفس الوقت)
 
-You **can** use more components than **8** but this will involve sharing a **GND** pin.
+** يمكنك** استخدام مكونات أكثر من **8** ولكن هذا سيتضمن مشاركة دبوس **GND**.
